@@ -1,0 +1,198 @@
+local UTG = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Close = Instance.new("ImageButton")
+local Title = Instance.new("TextLabel")
+local Welcome = Instance.new("TextLabel")
+local Page1 = Instance.new("Frame")
+local InfinityGaunglet = Instance.new("TextButton")
+local GrabKnife = Instance.new("TextButton")
+local ServerAdmin = Instance.new("TextButton")
+local GodSlayer = Instance.new("TextButton")
+local SunGod = Instance.new("TextButton")
+local Chara = Instance.new("TextButton")
+local User = Instance.new("TextBox")
+local Respawn = Instance.new("TextButton")
+local Credits = Instance.new("TextLabel")
+
+--Properties:
+
+UTG.Name = "UTG"
+UTG.Parent = game.CoreGui
+UTG.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+UTG.ResetOnSpawn = true
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = UTG
+MainFrame.BackgroundColor3 = Color3.fromRGB(136, 51, 255)
+MainFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.Position = UDim2.new(0.593434393, 0, 0.275485426, 0)
+MainFrame.Size = UDim2.new(0, 335, 0, 461)
+MainFrame.Draggable = true
+
+Close.Name = "Close"
+Close.Parent = MainFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.856716454, 0, -0.0158013552, 0)
+Close.Size = UDim2.new(0, 57, 0, 53)
+Close.Image = "rbxassetid://1249929622"
+Close.MouseButton1Down:connect(function()
+MainFrame.Visible = false
+end)
+
+Title.Name = "Title"
+Title.Parent = MainFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.00298507465, 0, 0, 0)
+Title.Size = UDim2.new(0, 334, 0, 50)
+Title.Text = "Ultimate Trolling GUI"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 18.000
+
+Welcome.Name = "Welcome"
+Welcome.Parent = MainFrame
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.BorderSizePixel = 0
+Welcome.Position = UDim2.new(0.06268657, 0, 0.126410842, 0)
+Welcome.Size = UDim2.new(0, 291, 0, 25)
+Welcome.Font = Enum.Font.SourceSans
+Welcome.Text = "Welcome to the brand new UTG! Have fun."
+Welcome.TextColor3 = Color3.fromRGB(0, 0, 0)
+Welcome.TextSize = 16.000
+
+Page1.Name = "Page1"
+Page1.Parent = MainFrame
+Page1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1.BorderSizePixel = 0
+Page1.Position = UDim2.new(0.0388059691, 0, 0.217056841, 0)
+Page1.Size = UDim2.new(0, 308, 0, 276)
+
+InfinityGaunglet.Name = "Infinity Gaunglet"
+InfinityGaunglet.Parent = Page1
+InfinityGaunglet.BackgroundColor3 = Color3.fromRGB(255, 120, 134)
+InfinityGaunglet.BorderSizePixel = 0
+InfinityGaunglet.Position = UDim2.new(0.0227272734, 0, 0.0454545468, 0)
+InfinityGaunglet.Size = UDim2.new(0, 292, 0, 32)
+InfinityGaunglet.Font = Enum.Font.GothamSemibold
+InfinityGaunglet.Text = "    Infinity Gaunglet"
+InfinityGaunglet.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfinityGaunglet.TextSize = 14.000
+InfinityGaunglet.TextXAlignment = Enum.TextXAlignment.Left
+InfinityGaunglet.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Rieqp050", true))()
+end)
+
+GrabKnife.Name = "Grab Knife"
+GrabKnife.Parent = Page1
+GrabKnife.BackgroundColor3 = Color3.fromRGB(255, 120, 134)
+GrabKnife.BorderSizePixel = 0
+GrabKnife.Position = UDim2.new(0.0194805209, 0, 0.185314685, 0)
+GrabKnife.Size = UDim2.new(0, 292, 0, 32)
+GrabKnife.Font = Enum.Font.GothamSemibold
+GrabKnife.Text = "    Grab Knife"
+GrabKnife.TextColor3 = Color3.fromRGB(255, 255, 255)
+GrabKnife.TextSize = 14.000
+GrabKnife.TextXAlignment = Enum.TextXAlignment.Left
+GrabKnife.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/rEztTVJ6", true))()
+end)
+
+ServerAdmin.Name = "Server Admin"
+ServerAdmin.Parent = Page1
+ServerAdmin.BackgroundColor3 = Color3.fromRGB(255, 120, 134)
+ServerAdmin.BorderSizePixel = 0
+ServerAdmin.Position = UDim2.new(0.0194805209, 0, 0.342657328, 0)
+ServerAdmin.Size = UDim2.new(0, 292, 0, 32)
+ServerAdmin.Font = Enum.Font.GothamSemibold
+ServerAdmin.Text = "    Server Admin"
+ServerAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+ServerAdmin.TextSize = 14.000
+ServerAdmin.TextXAlignment = Enum.TextXAlignment.Left
+ServerAdmin.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/PAd9XVYz", true))()
+end)
+
+GodSlayer.Name = "God Slayer"
+GodSlayer.Parent = Page1
+GodSlayer.BackgroundColor3 = Color3.fromRGB(255, 120, 134)
+GodSlayer.BorderSizePixel = 0
+GodSlayer.Position = UDim2.new(0.0227272734, 0, 0.493006974, 0)
+GodSlayer.Size = UDim2.new(0, 292, 0, 32)
+GodSlayer.Font = Enum.Font.GothamSemibold
+GodSlayer.Text = "    God Slayer"
+GodSlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
+GodSlayer.TextSize = 14.000
+GodSlayer.TextXAlignment = Enum.TextXAlignment.Left
+GodSlayer.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/0C2YyTJj", true))()
+end)
+
+SunGod.Name = "Sun God"
+SunGod.Parent = Page1
+SunGod.BackgroundColor3 = Color3.fromRGB(255, 120, 134)
+SunGod.BorderSizePixel = 0
+SunGod.Position = UDim2.new(0.0194805209, 0, 0.657342672, 0)
+SunGod.Size = UDim2.new(0, 292, 0, 32)
+SunGod.Font = Enum.Font.GothamSemibold
+SunGod.Text = "    Sun God"
+SunGod.TextColor3 = Color3.fromRGB(255, 255, 255)
+SunGod.TextSize = 14.000
+SunGod.TextXAlignment = Enum.TextXAlignment.Left
+SunGod.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Px9nnMtc", true))()
+end)
+
+Chara.Name = "Chara"
+Chara.Parent = Page1
+Chara.BackgroundColor3 = Color3.fromRGB(255, 120, 134)
+Chara.BorderSizePixel = 0
+Chara.Position = UDim2.new(0.0227272734, 0, 0.807692289, 0)
+Chara.Size = UDim2.new(0, 292, 0, 32)
+Chara.Font = Enum.Font.GothamSemibold
+Chara.Text = "    Chara"
+Chara.TextColor3 = Color3.fromRGB(255, 255, 255)
+Chara.TextSize = 14.000
+Chara.TextXAlignment = Enum.TextXAlignment.Left
+Chara.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/BhcXg7Bw", true))()
+end)
+
+User.Name = "User"
+User.Parent = MainFrame
+User.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+User.BorderSizePixel = 0
+User.Position = UDim2.new(0.0388059691, 0, 0.917570472, 0)
+User.Size = UDim2.new(0, 156, 0, 30)
+User.Font = Enum.Font.Gotham
+User.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+User.PlaceholderText = "me"
+User.Text = ""
+User.TextColor3 = Color3.fromRGB(0, 0, 0)
+User.TextSize = 14.000
+
+Respawn.Name = "Respawn"
+Respawn.Parent = MainFrame
+Respawn.BackgroundColor3 = Color3.fromRGB(52, 180, 152)
+Respawn.BorderSizePixel = 0
+Respawn.Position = UDim2.new(0.602985084, 0, 0.904555321, 0)
+Respawn.Size = UDim2.new(0, 116, 0, 36)
+Respawn.Font = Enum.Font.Cartoon
+Respawn.Text = "RESPAWN"
+Respawn.TextColor3 = Color3.fromRGB(81, 81, 81)
+Respawn.TextSize = 20.000
+Respawn.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+
+Credits.Name = "Credits"
+Credits.Parent = MainFrame
+Credits.BackgroundColor3 = Color3.fromRGB(41, 161, 59)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.017910447, 0, 0.835141003, 0)
+Credits.Size = UDim2.new(0, 321, 0, 24)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Created by RodriTex07 and santiclash2010"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 17.000
